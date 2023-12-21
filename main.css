@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.curr-Tab {
+  background-color: #bdbdbd81;
+  border-radius: 6px;
+  padding: 2px;
+}
+.active {
+  display: block;
+}
+.wrapper {
+  position: relative;
+  z-index: 100;
+}
+.tint {
+  background-image: url("assets/5466409.jpg");
+  background-size: cover;
+}
+.tint:before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.258);
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
